@@ -120,10 +120,10 @@ with st.sidebar:
     *Note: For entertainment purposes only.*
     """)
     st.divider()
-    st.info("AI Analysis is powered by GPT-4o Vision.")
+   
 
 # Main Content
-st.markdown('<h1 class="main-header">PalmInsight AI</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">PalmInsight Analysis</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Unlock your personality and future through AI-powered palm analysis.</p>', unsafe_allow_html=True)
 
 col1, col2 = st.columns([1, 1], gap="large")
@@ -270,6 +270,6 @@ with col2:
 st.divider()
 st.markdown("""
 <div style="text-align: center; color: #64748b; font-size: 0.8rem;">
-    © 2026 PalmInsight AI | For Educational and Entertainment Purposes Only.
+    © 2026 Developed by Pitom Ghosh | For Educational and Entertainment Purposes Only.
 </div>
 """, unsafe_allow_html=True)
