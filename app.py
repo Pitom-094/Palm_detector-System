@@ -113,8 +113,8 @@ with st.sidebar:
     st.divider()
     st.markdown("""
     ### 📖 Instructions:
-    1. **Upload** a clear photo of your palm.
-    2. **AI Analysis** identifies key palm lines and shapes.
+    1. **Upload** a clear photo from your gallary of your palm.
+    2. **System Analysis** identifies key palm lines and shapes.
     3. **Insights** are generated based on traditional palmistry and psychological patterns.
     
     *Note: For entertainment purposes only.*
@@ -124,9 +124,9 @@ with st.sidebar:
 
 # Main Content
 st.markdown('<h1 class="main-header">PalmInsight Analysis</h1>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Unlock your personality and future through AI-powered palm analysis.</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header">Unlock your personality and future through System-powered palm analysis.</p>', unsafe_allow_html=True)
 
-col1, col2 = st.columns([1, 1], gap="large")
+
 
 with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
@@ -245,7 +245,7 @@ with col2:
         if st.button("Analyze My Palm"):
             api_key = os.getenv("OPENAI_API_KEY")
             
-            with st.spinner("অত্যাধুনিক AI দিয়ে আপনার হাতের রেখা বিশ্লেষণ করা হচ্ছে..."):
+            with st.spinner("অত্যাধুনিক System দিয়ে আপনার হাতের রেখা বিশ্লেষণ করা হচ্ছে..."):
                 base64_image = encode_image(uploaded_file)
                 
                 # Check if API key exists, otherwise go straight to local engine
