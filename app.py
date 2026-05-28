@@ -126,7 +126,7 @@ with st.sidebar:
 st.markdown('<h1 class="main-header">PalmInsight Analysis</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Unlock your personality and future through System-powered palm analysis.</p>', unsafe_allow_html=True)
 
-
+col1, col2 = st.columns([1, 1], gap="large")
 
 with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
